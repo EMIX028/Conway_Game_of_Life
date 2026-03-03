@@ -162,12 +162,12 @@ def fonction_Btn_import(obj):
                 if y >= len(obj.cellules):
                     ligne = []
                     for col in range(nb_colonnes_obj):
-                        cellule = Cellule(col * taille_cellule, y * taille_cellule, taille_cellule)
+                        cellule = jv.Cellule(col * taille_cellule, y * taille_cellule, taille_cellule)
                         ligne.append(cellule)
                     obj.cellules.append(ligne)
                     ajustement = True
                 elif x >= len(obj.cellules[y]):
-                    cellule = Cellule(x * taille_cellule, y * taille_cellule, taille_cellule)
+                    cellule = jv.Cellule(x * taille_cellule, y * taille_cellule, taille_cellule)
                     obj.cellules[y].append(cellule)
                     ajustement = True
                 obj.cellules[y][x].etat = liste_imp[y][x]
@@ -477,8 +477,8 @@ def mouse_moved(event):
 def mouse_wheel(event):
     jeu_vie.mouse_wheel(event)
 
-def key_pressed():
-    if key == " ":
+def key_pressed(event):
+    if event.key == " ":
         fonction_Btn_start(g)
 
 
