@@ -1,0 +1,17 @@
+[project]
+name = "Conway_Game_of_life"
+version = "2.1.0"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "p5",
+    "numpy",
+    "pygame",
+    "tkinter",
+    "random",
+    "ctypes",
+    "sys",
+    "json",
+    "os",
+    "threading",
+    "math"
+]

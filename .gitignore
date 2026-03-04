@@ -1,6 +1,5 @@
 # Environnement virtuel
-venv/
-.ConwayEnv/
+ConwayEnv/
 
 # Cache Python
 __pycache__/
