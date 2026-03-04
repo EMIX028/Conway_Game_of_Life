@@ -1,3 +1,5 @@
+ **Warning: The project doesn't work on Linux. If you encounter any bugs with the window scaling, please upgrade numpy and p5. The project was coded in Python 3.10**
+
 **The instructions Game of Life Project with P5 and OOP**
 
 This project is an implementation of Conway’s Game of Life using Python, object-oriented programming, and P5 for graphical rendering.
@@ -50,7 +52,4 @@ You are encouraged to expand the project with any creative ideas you may have, s
 * A menu to launch various Game of Life configurations
 * The ability to manually place live cells using the mouse
 * Visual or auditory enhancements
-* Saving and loading configurations
-
-
- **Warning: The project doesn't work on Linux. If you encounter any bugs with the window scaling, please upgrade numpy and p5. The project was coded in Python 3.7.10.** 
+* Saving and loading configurations 
