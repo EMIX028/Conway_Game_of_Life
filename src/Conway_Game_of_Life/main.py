@@ -51,8 +51,8 @@ Rouge_fonce = (153, 60, 87)
 Rouge_clair = (192, 121, 145)
 
 #sons
-Sound_BtnClick = pm.Son("ressource/mouse_click.wav",0.5)
-Scroll = pm.Son("ressource/step.mp3",1)
+Sound_BtnClick = pm.Son("mouse_click.wav",0.5)
+Scroll = pm.Son("step.mp3",1)
 sfx = [Sound_BtnClick,Scroll]
 
 

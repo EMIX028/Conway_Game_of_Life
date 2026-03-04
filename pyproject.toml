@@ -1,5 +1,5 @@
 [project]
-name = "Conway_Game_of_life"
+name = "Conway_Game_of_Life"
 version = "2.1.0"
 requires-python = ">=3.10,<3.11"
 dependencies = [
