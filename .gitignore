@@ -1,0 +1,14 @@
+# Environnement virtuel
+venv/
+.ConwayEnv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Fichiers IDE
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
