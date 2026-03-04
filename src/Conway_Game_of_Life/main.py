@@ -51,7 +51,7 @@ Rouge_fonce = (153, 60, 87)
 Rouge_clair = (192, 121, 145)
 
 #sons
-Sound_BtnClick = pm.Son("mouse_click.wav",0.5)
+Sound_BtnClick = pm.Son("mouse_click.wav",0.2)
 Scroll = pm.Son("step.mp3",1)
 sfx = [Sound_BtnClick,Scroll]
 
@@ -332,7 +332,7 @@ def setup():
     T_sfx = pm.Texte("SFX :",0.35,0.72,24)
     Btn_exit = pm.Bouton(x=0.8,y=0.24,rgba= Rouge_fonce,command= lambda : fonction_btn_exit(),size=32,radius=10,text=" X ",fc=Blanc,percent=True,hov=Rouge_clair,sound=Sound_BtnClick)
     DD_res = pm.DropdownMenu(0.5, 0.35, resolutions, on_select=apply_resolution,couleur_fond = Bleu_fonce,hov = Bleu_clair,couleur_font= Blanc,sound = Sound_BtnClick)
-    S_SFX = pm.Slider( x=0.5, y=0.72, steps=11, value=5 , knob_color=(180,), knob_act=(100,), on_change=ajuster_volume,percent=True,arg = sfx,son = Scroll)
+    S_SFX = pm.Slider( x=0.5, y=0.72, steps=11, value=2 , knob_color=(180,), knob_act=(100,), on_change=ajuster_volume,percent=True,arg = sfx,son = Scroll)
     S_filtre = pm.Slider(x=0.5, y=0.53,steps=6, value=0,knob_color=(180,),knob_act = (100,),son = Scroll,on_change=changer_niveau_filtre, percent=True)
     DD_filtre = pm.DropdownMenu( x=0.5, y=0.45, options=[None] + filtres, on_select=choisir_filtre, couleur_fond=Bleu_fonce, hov=Bleu_clair, couleur_font=Blanc, sound=Sound_BtnClick)
 
