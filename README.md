@@ -26,7 +26,7 @@ Requirements:
 * The draw() function should be minimal, only responsible for computing and rendering the grid
 * In this first step, the initial configuration of live cells is hardcoded — no graphical interface yet
 
-Step 2: Competing Cell Populations
+**Step 2: Competing Cell Populations**
 
 The Game of Life is now adapted to include two sets of cells, each with a different color (for example, red and blue).
 
@@ -41,11 +41,11 @@ Key questions:
 Goal:
 Explore and visualize how these two populations compete or coexist over time. You can freely choose the initial setup (randomized, teams placed face-to-face, etc.).
 
-Step 3: Strategy Comparison
+**Step 3: Strategy Comparison**
 
 Introduce a menu or selection interface that allows the user to pick a strategy for each color (blue strategy, red strategy) before launching the simulation.
 
-Bonus Ideas
+**Bonus Ideas**
 
 You are encouraged to expand the project with any creative ideas you may have, such as:
 
@@ -53,3 +53,11 @@ You are encouraged to expand the project with any creative ideas you may have, s
 * The ability to manually place live cells using the mouse
 * Visual or auditory enhancements
 * Saving and loading configurations 
+
+## Versions
+
+### Python
+Dossier : /python-version(original)
+
+### C-GBA
+Dossier : /C-GBA
