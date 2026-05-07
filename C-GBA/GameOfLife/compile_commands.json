@@ -1,0 +1,29 @@
+[
+  {
+    "file": "/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/source/main.c",
+    "arguments": [
+      "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc",
+      "-MMD",
+      "-MP",
+      "-MF",
+      "/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/build/main.d",
+      "-g",
+      "-Wall",
+      "-O2",
+      "-mcpu=arm7tdmi",
+      "-mtune=arm7tdmi",
+      "-mthumb",
+      "-mthumb-interwork",
+      "-iquote",
+      "/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/include",
+      "-I/opt/devkitpro/libgba/include",
+      "-I/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/build",
+      "-c",
+      "/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/source/main.c",
+      "-o",
+      "main.o"
+    ],
+    "directory": "/home/maxime/Documents/GitGub_Local_repo/Conway_Game_of_Life/C-GBA/GameOfLife/build",
+    "output": "main.o"
+  }
+]
