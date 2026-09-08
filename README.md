@@ -53,11 +53,3 @@ You are encouraged to expand the project with any creative ideas you may have, s
 * The ability to manually place live cells using the mouse
 * Visual or auditory enhancements
 * Saving and loading configurations 
-
-## Versions
-
-### Python
-Dossier : /python-version(original)
-
-### C-GBA
-Dossier : /C-GBA
