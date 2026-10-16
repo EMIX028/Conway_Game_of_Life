@@ -422,7 +422,7 @@ def draw():
 
         if index_page == "LifeTime":
             ## Mode LifeTime
-            T_score = pm.Texte(f"Scores : {len(LifeTimeG.historique)}",0.8,0.4,48)
+            T_score = pm.Texte(f"Scores : {len(LifeTimeG.historique)*10}",0.8,0.4,48)
             T_score.afficher()
             T_expli = pm.Texte("Le but du jeu est de faire\nsurvivre les cellules\nles plus longtemps possible\n(oscilateur et forme inerte\nnon compté)",0.8,0.7,30)
             T_expli.afficher()
